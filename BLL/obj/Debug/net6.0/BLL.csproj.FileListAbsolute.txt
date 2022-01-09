@@ -1,0 +1,15 @@
+D:\Alzahraa\SmartAir\SmartAir\BLL\bin\Debug\net6.0\BLL.deps.json
+D:\Alzahraa\SmartAir\SmartAir\BLL\bin\Debug\net6.0\BLL.dll
+D:\Alzahraa\SmartAir\SmartAir\BLL\bin\Debug\net6.0\ref\BLL.dll
+D:\Alzahraa\SmartAir\SmartAir\BLL\bin\Debug\net6.0\BLL.pdb
+D:\Alzahraa\SmartAir\SmartAir\BLL\bin\Debug\net6.0\DAL.dll
+D:\Alzahraa\SmartAir\SmartAir\BLL\bin\Debug\net6.0\DAL.pdb
+D:\Alzahraa\SmartAir\SmartAir\BLL\obj\Debug\net6.0\BLL.csproj.AssemblyReference.cache
+D:\Alzahraa\SmartAir\SmartAir\BLL\obj\Debug\net6.0\BLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Alzahraa\SmartAir\SmartAir\BLL\obj\Debug\net6.0\BLL.AssemblyInfoInputs.cache
+D:\Alzahraa\SmartAir\SmartAir\BLL\obj\Debug\net6.0\BLL.AssemblyInfo.cs
+D:\Alzahraa\SmartAir\SmartAir\BLL\obj\Debug\net6.0\BLL.csproj.CoreCompileInputs.cache
+D:\Alzahraa\SmartAir\SmartAir\BLL\obj\Debug\net6.0\BLL.csproj.CopyComplete
+D:\Alzahraa\SmartAir\SmartAir\BLL\obj\Debug\net6.0\BLL.dll
+D:\Alzahraa\SmartAir\SmartAir\BLL\obj\Debug\net6.0\ref\BLL.dll
+D:\Alzahraa\SmartAir\SmartAir\BLL\obj\Debug\net6.0\BLL.pdb
