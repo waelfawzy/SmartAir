@@ -1,38 +1,41 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Alzahraa\\SmartAir\\SmartAir\\BLL\\BLL.csproj": {}
+    "C:\\Users\\5\\Desktop\\SmartAir\\SmartAir\\BLL\\BLL.csproj": {}
   },
   "projects": {
-    "D:\\Alzahraa\\SmartAir\\SmartAir\\BLL\\BLL.csproj": {
+    "C:\\Users\\5\\Desktop\\SmartAir\\SmartAir\\BLL\\BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Alzahraa\\SmartAir\\SmartAir\\BLL\\BLL.csproj",
+        "projectUniqueName": "C:\\Users\\5\\Desktop\\SmartAir\\SmartAir\\BLL\\BLL.csproj",
         "projectName": "BLL",
-        "projectPath": "D:\\Alzahraa\\SmartAir\\SmartAir\\BLL\\BLL.csproj",
-        "packagesPath": "C:\\Users\\csharp\\.nuget\\packages\\",
-        "outputPath": "D:\\Alzahraa\\SmartAir\\SmartAir\\BLL\\obj\\",
+        "projectPath": "C:\\Users\\5\\Desktop\\SmartAir\\SmartAir\\BLL\\BLL.csproj",
+        "packagesPath": "C:\\Users\\5\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\5\\Desktop\\SmartAir\\SmartAir\\BLL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files (x86)\\Progress\\ToolboxNuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\csharp\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\5\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Telerik UI for WinForms.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/nuget": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Alzahraa\\SmartAir\\SmartAir\\DAL\\DAL.csproj": {
-                "projectPath": "D:\\Alzahraa\\SmartAir\\SmartAir\\DAL\\DAL.csproj"
+              "C:\\Users\\5\\Desktop\\SmartAir\\SmartAir\\DAL\\DAL.csproj": {
+                "projectPath": "C:\\Users\\5\\Desktop\\SmartAir\\SmartAir\\DAL\\DAL.csproj"
               }
             }
           }
@@ -61,32 +64,35 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Alzahraa\\SmartAir\\SmartAir\\DAL\\DAL.csproj": {
+    "C:\\Users\\5\\Desktop\\SmartAir\\SmartAir\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Alzahraa\\SmartAir\\SmartAir\\DAL\\DAL.csproj",
+        "projectUniqueName": "C:\\Users\\5\\Desktop\\SmartAir\\SmartAir\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "D:\\Alzahraa\\SmartAir\\SmartAir\\DAL\\DAL.csproj",
-        "packagesPath": "C:\\Users\\csharp\\.nuget\\packages\\",
-        "outputPath": "D:\\Alzahraa\\SmartAir\\SmartAir\\DAL\\obj\\",
+        "projectPath": "C:\\Users\\5\\Desktop\\SmartAir\\SmartAir\\DAL\\DAL.csproj",
+        "packagesPath": "C:\\Users\\5\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\5\\Desktop\\SmartAir\\SmartAir\\DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files (x86)\\Progress\\ToolboxNuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\csharp\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\5\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Telerik UI for WinForms.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/nuget": {}
         },
         "frameworks": {
           "net6.0": {
@@ -140,7 +146,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
