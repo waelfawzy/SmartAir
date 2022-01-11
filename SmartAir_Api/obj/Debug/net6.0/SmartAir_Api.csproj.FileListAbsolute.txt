@@ -122,3 +122,4 @@ C:\Users\5\Desktop\SmartAir\SmartAir\SmartAir_Api\obj\Debug\net6.0\SmartAir_Api.
 C:\Users\5\Desktop\SmartAir\SmartAir\SmartAir_Api\obj\Debug\net6.0\ref\SmartAir_Api.dll
 C:\Users\5\Desktop\SmartAir\SmartAir\SmartAir_Api\obj\Debug\net6.0\SmartAir_Api.pdb
 C:\Users\5\Desktop\SmartAir\SmartAir\SmartAir_Api\obj\Debug\net6.0\SmartAir_Api.genruntimeconfig.cache
+C:\Users\5\Desktop\SmartAir\SmartAir\SmartAir_Api\bin\Debug\net6.0\Oracle.ManagedDataAccess.dll
