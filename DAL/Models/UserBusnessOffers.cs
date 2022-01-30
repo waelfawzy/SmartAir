@@ -1,0 +1,21 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace DAL.Models
+{
+    public class UserBusnessOffers
+    {
+        public int Id { get; set; }
+        public int OwnerId { set; get; }//User Id 
+        public int PartnerId { set; get; } //User Id
+        public string Status { set; get; }
+        [ForeignKey("BusinessOffer")]
+        public int BusinessOfferId { set; get; }
+        public BusinessOffer BusinessOffer { set; get; }
+
+    }
+}

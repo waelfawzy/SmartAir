@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31912.275
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{1C55CF40-3F51-4099-A8C1-89844468914C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DAL", "DAL\DAL.csproj", "{1C55CF40-3F51-4099-A8C1-89844468914C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{F89A78B6-50EC-44F2-AD6B-E7D9AB537CD8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BLL", "BLL\BLL.csproj", "{F89A78B6-50EC-44F2-AD6B-E7D9AB537CD8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Angular_SmarAir", "Angular_SmarAir\Angular_SmarAir.csproj", "{4D88C524-EB3D-4148-ACCC-C945F8FAED03}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Angular_SmarAir", "Angular_SmarAir\Angular_SmarAir.csproj", "{4D88C524-EB3D-4148-ACCC-C945F8FAED03}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartAir_Api", "SmartAir_Api\SmartAir_Api.csproj", "{B812564A-7A6F-420E-B1D3-10C7BF34957C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartAir_Api", "SmartAir_Api\SmartAir_Api.csproj", "{B812564A-7A6F-420E-B1D3-10C7BF34957C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mobile_Api", "Mobile_Api\Mobile_Api.csproj", "{56D637C8-5195-47B5-A269-5F9D71048A56}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mobile_Api", "Mobile_Api\Mobile_Api.csproj", "{56D637C8-5195-47B5-A269-5F9D71048A56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SL", "SL\SL.csproj", "{7AD02A9A-6614-4C06-93BE-914A7D653A51}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{56D637C8-5195-47B5-A269-5F9D71048A56}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{56D637C8-5195-47B5-A269-5F9D71048A56}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{56D637C8-5195-47B5-A269-5F9D71048A56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AD02A9A-6614-4C06-93BE-914A7D653A51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AD02A9A-6614-4C06-93BE-914A7D653A51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AD02A9A-6614-4C06-93BE-914A7D653A51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AD02A9A-6614-4C06-93BE-914A7D653A51}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

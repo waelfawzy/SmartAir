@@ -1,0 +1,410 @@
+﻿++Solution 'SmartAir' ‎(5 of 5 projects)
+++DAL
+i:{00000000-0000-0000-0000-000000000000}:DAL
+i:{f89a78b6-50ec-44f2-ad6b-e7d9ab537cd8}:d:\ayman\smartair\smartair\dal\dal.csproj
+++Dependencies
+i:{1c55cf40-3f51-4099-a8c1-89844468914c}:>622
+i:{b812564a-7a6f-420e-b1d3-10c7bf34957c}:>976
+i:{56d637c8-5195-47b5-a269-5f9d71048a56}:>974
+i:{f89a78b6-50ec-44f2-ad6b-e7d9ab537cd8}:>623
+i:{4d88c524-eb3d-4148-accc-c945f8faed03}:>975
+i:{7ad02a9a-6614-4c06-93be-914a7d653a51}:>1088
+++Models
+i:{1c55cf40-3f51-4099-a8c1-89844468914c}:d:\ayman\smartair\smartair\dal\models\
+++AirPort.cs
+i:{1c55cf40-3f51-4099-a8c1-89844468914c}:d:\ayman\smartair\smartair\dal\models\airport.cs
+++AirportActivity.cs
+i:{1c55cf40-3f51-4099-a8c1-89844468914c}:d:\ayman\smartair\smartair\dal\models\airportactivity.cs
+++BusinessOffer.cs
+i:{1c55cf40-3f51-4099-a8c1-89844468914c}:d:\ayman\smartair\smartair\dal\models\businessoffer.cs
+++Country.cs
+i:{1c55cf40-3f51-4099-a8c1-89844468914c}:d:\ayman\smartair\smartair\dal\models\country.cs
+++Currency.cs
+i:{1c55cf40-3f51-4099-a8c1-89844468914c}:d:\ayman\smartair\smartair\dal\models\currency.cs
+++DisabilityType.cs
+i:{1c55cf40-3f51-4099-a8c1-89844468914c}:d:\ayman\smartair\smartair\dal\models\disabilitytype.cs
+++Events.cs
+i:{1c55cf40-3f51-4099-a8c1-89844468914c}:d:\ayman\smartair\smartair\dal\models\events.cs
+++Field.cs
+i:{1c55cf40-3f51-4099-a8c1-89844468914c}:d:\ayman\smartair\smartair\dal\models\field.cs
+++FieldEvents.cs
+i:{1c55cf40-3f51-4099-a8c1-89844468914c}:d:\ayman\smartair\smartair\dal\models\fieldevents.cs
+++FieldValidations.cs
+i:{1c55cf40-3f51-4099-a8c1-89844468914c}:d:\ayman\smartair\smartair\dal\models\fieldvalidations.cs
+++Flight.cs
+i:{1c55cf40-3f51-4099-a8c1-89844468914c}:d:\ayman\smartair\smartair\dal\models\flight.cs
+++Garage.cs
+i:{1c55cf40-3f51-4099-a8c1-89844468914c}:d:\ayman\smartair\smartair\dal\models\garage.cs
+++LabPcrType.cs
+i:{1c55cf40-3f51-4099-a8c1-89844468914c}:d:\ayman\smartair\smartair\dal\models\labpcrtype.cs
+++Organization.cs
+i:{1c55cf40-3f51-4099-a8c1-89844468914c}:d:\ayman\smartair\smartair\dal\models\organization.cs
+++OrganizationPackag.cs
+i:{1c55cf40-3f51-4099-a8c1-89844468914c}:d:\ayman\smartair\smartair\dal\models\organizationpackag.cs
+++OrganizationType.cs
+i:{1c55cf40-3f51-4099-a8c1-89844468914c}:d:\ayman\smartair\smartair\dal\models\organizationtype.cs
+++PaymentType.cs
+i:{1c55cf40-3f51-4099-a8c1-89844468914c}:d:\ayman\smartair\smartair\dal\models\paymenttype.cs
+++PcrType.cs
+i:{1c55cf40-3f51-4099-a8c1-89844468914c}:d:\ayman\smartair\smartair\dal\models\pcrtype.cs
+++Permission.cs
+i:{1c55cf40-3f51-4099-a8c1-89844468914c}:d:\ayman\smartair\smartair\dal\models\permission.cs
+++Plane.cs
+i:{1c55cf40-3f51-4099-a8c1-89844468914c}:d:\ayman\smartair\smartair\dal\models\plane.cs
+++Product.cs
+i:{1c55cf40-3f51-4099-a8c1-89844468914c}:d:\ayman\smartair\smartair\dal\models\product.cs
+++ProductUnits.cs
+i:{1c55cf40-3f51-4099-a8c1-89844468914c}:d:\ayman\smartair\smartair\dal\models\productunits.cs
+++Reservation.cs
+i:{1c55cf40-3f51-4099-a8c1-89844468914c}:d:\ayman\smartair\smartair\dal\models\reservation.cs
+++ReservationForm.cs
+i:{1c55cf40-3f51-4099-a8c1-89844468914c}:d:\ayman\smartair\smartair\dal\models\reservationform.cs
+++ReservationType.cs
+i:{1c55cf40-3f51-4099-a8c1-89844468914c}:d:\ayman\smartair\smartair\dal\models\reservationtype.cs
+++Role.cs
+i:{1c55cf40-3f51-4099-a8c1-89844468914c}:d:\ayman\smartair\smartair\dal\models\role.cs
+++RolePermissions.cs
+i:{1c55cf40-3f51-4099-a8c1-89844468914c}:d:\ayman\smartair\smartair\dal\models\rolepermissions.cs
+++Room.cs
+i:{1c55cf40-3f51-4099-a8c1-89844468914c}:d:\ayman\smartair\smartair\dal\models\room.cs
+++RoomType.cs
+i:{1c55cf40-3f51-4099-a8c1-89844468914c}:d:\ayman\smartair\smartair\dal\models\roomtype.cs
+++Seat.cs
+i:{1c55cf40-3f51-4099-a8c1-89844468914c}:d:\ayman\smartair\smartair\dal\models\seat.cs
+++SmartContext.cs
+i:{1c55cf40-3f51-4099-a8c1-89844468914c}:d:\ayman\smartair\smartair\dal\models\smartcontext.cs
+++SuperMarketProducts.cs
+i:{1c55cf40-3f51-4099-a8c1-89844468914c}:d:\ayman\smartair\smartair\dal\models\supermarketproducts.cs
+++Terminal.cs
+i:{1c55cf40-3f51-4099-a8c1-89844468914c}:d:\ayman\smartair\smartair\dal\models\terminal.cs
+++Transportation.cs
+i:{1c55cf40-3f51-4099-a8c1-89844468914c}:d:\ayman\smartair\smartair\dal\models\transportation.cs
+++TransportationDetails.cs
+i:{1c55cf40-3f51-4099-a8c1-89844468914c}:d:\ayman\smartair\smartair\dal\models\transportationdetails.cs
+++TransportationType.cs
+i:{1c55cf40-3f51-4099-a8c1-89844468914c}:d:\ayman\smartair\smartair\dal\models\transportationtype.cs
+++Trip.cs
+i:{1c55cf40-3f51-4099-a8c1-89844468914c}:d:\ayman\smartair\smartair\dal\models\trip.cs
+++TripTransportation.cs
+i:{1c55cf40-3f51-4099-a8c1-89844468914c}:d:\ayman\smartair\smartair\dal\models\triptransportation.cs
+++Unit.cs
+i:{1c55cf40-3f51-4099-a8c1-89844468914c}:d:\ayman\smartair\smartair\dal\models\unit.cs
+++User.cs
+i:{1c55cf40-3f51-4099-a8c1-89844468914c}:d:\ayman\smartair\smartair\dal\models\user.cs
+++UserBusnessOffers.cs
+i:{1c55cf40-3f51-4099-a8c1-89844468914c}:d:\ayman\smartair\smartair\dal\models\userbusnessoffers.cs
+++UserDisability.cs
+i:{1c55cf40-3f51-4099-a8c1-89844468914c}:d:\ayman\smartair\smartair\dal\models\userdisability.cs
+++Validations.cs
+i:{1c55cf40-3f51-4099-a8c1-89844468914c}:d:\ayman\smartair\smartair\dal\models\validations.cs
+++Analyzers
+i:{1c55cf40-3f51-4099-a8c1-89844468914c}:analyzers
+i:{b812564a-7a6f-420e-b1d3-10c7bf34957c}:analyzers
+i:{56d637c8-5195-47b5-a269-5f9d71048a56}:analyzers
+i:{f89a78b6-50ec-44f2-ad6b-e7d9ab537cd8}:analyzers
+i:{4d88c524-eb3d-4148-accc-c945f8faed03}:analyzers
+i:{7ad02a9a-6614-4c06-93be-914a7d653a51}:analyzers
+++Frameworks
+i:{1c55cf40-3f51-4099-a8c1-89844468914c}:frameworks
+i:{b812564a-7a6f-420e-b1d3-10c7bf34957c}:frameworks
+i:{56d637c8-5195-47b5-a269-5f9d71048a56}:frameworks
+i:{f89a78b6-50ec-44f2-ad6b-e7d9ab537cd8}:frameworks
+i:{4d88c524-eb3d-4148-accc-c945f8faed03}:frameworks
+i:{7ad02a9a-6614-4c06-93be-914a7d653a51}:frameworks
+++Packages
+i:{1c55cf40-3f51-4099-a8c1-89844468914c}:packages
+i:{b812564a-7a6f-420e-b1d3-10c7bf34957c}:packages
+i:{56d637c8-5195-47b5-a269-5f9d71048a56}:packages
+i:{f89a78b6-50ec-44f2-ad6b-e7d9ab537cd8}:packages
+i:{4d88c524-eb3d-4148-accc-c945f8faed03}:packages
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{1c55cf40-3f51-4099-a8c1-89844468914c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{b812564a-7a6f-420e-b1d3-10c7bf34957c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{56d637c8-5195-47b5-a269-5f9d71048a56}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{f89a78b6-50ec-44f2-ad6b-e7d9ab537cd8}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{4d88c524-eb3d-4148-accc-c945f8faed03}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{7ad02a9a-6614-4c06-93be-914a7d653a51}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{1c55cf40-3f51-4099-a8c1-89844468914c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{b812564a-7a6f-420e-b1d3-10c7bf34957c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{56d637c8-5195-47b5-a269-5f9d71048a56}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{f89a78b6-50ec-44f2-ad6b-e7d9ab537cd8}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{4d88c524-eb3d-4148-accc-c945f8faed03}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{7ad02a9a-6614-4c06-93be-914a7d653a51}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++Microsoft.EntityFrameworkCore.Analyzers
+i:{1c55cf40-3f51-4099-a8c1-89844468914c}:c:\users\aabdelkader\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.1\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{b812564a-7a6f-420e-b1d3-10c7bf34957c}:c:\users\aabdelkader\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.1\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{56d637c8-5195-47b5-a269-5f9d71048a56}:c:\users\aabdelkader\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.1\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{f89a78b6-50ec-44f2-ad6b-e7d9ab537cd8}:c:\users\aabdelkader\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.1\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+++Microsoft.Extensions.Logging.Generators
+i:{1c55cf40-3f51-4099-a8c1-89844468914c}:c:\users\aabdelkader\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{b812564a-7a6f-420e-b1d3-10c7bf34957c}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{56d637c8-5195-47b5-a269-5f9d71048a56}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{f89a78b6-50ec-44f2-ad6b-e7d9ab537cd8}:c:\users\aabdelkader\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{4d88c524-eb3d-4148-accc-c945f8faed03}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+++System.Text.Json.SourceGeneration
+i:{1c55cf40-3f51-4099-a8c1-89844468914c}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.0\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{b812564a-7a6f-420e-b1d3-10c7bf34957c}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.0\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{56d637c8-5195-47b5-a269-5f9d71048a56}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.0\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{f89a78b6-50ec-44f2-ad6b-e7d9ab537cd8}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.0\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{4d88c524-eb3d-4148-accc-c945f8faed03}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.0\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{7ad02a9a-6614-4c06-93be-914a7d653a51}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.0\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+++Microsoft.NETCore.App
+i:{1c55cf40-3f51-4099-a8c1-89844468914c}:d:\ayman\smartair\smartair\dal\microsoft.netcore.app
+i:{b812564a-7a6f-420e-b1d3-10c7bf34957c}:d:\ayman\smartair\smartair\smartair_api\microsoft.netcore.app
+i:{56d637c8-5195-47b5-a269-5f9d71048a56}:d:\ayman\smartair\smartair\mobile_api\microsoft.netcore.app
+i:{f89a78b6-50ec-44f2-ad6b-e7d9ab537cd8}:d:\ayman\smartair\smartair\bll\microsoft.netcore.app
+i:{4d88c524-eb3d-4148-accc-c945f8faed03}:d:\ayman\smartair\smartair\angular_smarair\microsoft.netcore.app
+i:{7ad02a9a-6614-4c06-93be-914a7d653a51}:d:\ayman\smartair\smartair\sl\microsoft.netcore.app
+++Microsoft.EntityFrameworkCore (6.0.1)
+i:{1c55cf40-3f51-4099-a8c1-89844468914c}:>998
+++Microsoft.EntityFrameworkCore.Design (6.0.1)
+i:{1c55cf40-3f51-4099-a8c1-89844468914c}:>1000
+++Microsoft.EntityFrameworkCore.SqlServer (6.0.1)
+i:{1c55cf40-3f51-4099-a8c1-89844468914c}:>999
+++Microsoft.EntityFrameworkCore.Tools (6.0.1)
+i:{1c55cf40-3f51-4099-a8c1-89844468914c}:>1001
+++SmartAir_Api
+i:{00000000-0000-0000-0000-000000000000}:SmartAir_Api
+++Connected Services 
+i:{b812564a-7a6f-420e-b1d3-10c7bf34957c}:>977
+i:{56d637c8-5195-47b5-a269-5f9d71048a56}:>979
+i:{4d88c524-eb3d-4148-accc-c945f8faed03}:>978
+++Properties
+i:{b812564a-7a6f-420e-b1d3-10c7bf34957c}:d:\ayman\smartair\smartair\smartair_api\properties\
+i:{56d637c8-5195-47b5-a269-5f9d71048a56}:d:\ayman\smartair\smartair\mobile_api\properties\
+i:{4d88c524-eb3d-4148-accc-c945f8faed03}:d:\ayman\smartair\smartair\angular_smarair\properties\
+++Controllers
+i:{b812564a-7a6f-420e-b1d3-10c7bf34957c}:d:\ayman\smartair\smartair\smartair_api\controllers\
+i:{56d637c8-5195-47b5-a269-5f9d71048a56}:d:\ayman\smartair\smartair\mobile_api\controllers\
+i:{4d88c524-eb3d-4148-accc-c945f8faed03}:d:\ayman\smartair\smartair\angular_smarair\controllers\
+++appsettings.json
+i:{b812564a-7a6f-420e-b1d3-10c7bf34957c}:d:\ayman\smartair\smartair\smartair_api\appsettings.json
+i:{56d637c8-5195-47b5-a269-5f9d71048a56}:d:\ayman\smartair\smartair\mobile_api\appsettings.json
+i:{4d88c524-eb3d-4148-accc-c945f8faed03}:d:\ayman\smartair\smartair\angular_smarair\appsettings.json
+++Program.cs
+i:{b812564a-7a6f-420e-b1d3-10c7bf34957c}:d:\ayman\smartair\smartair\smartair_api\program.cs
+i:{56d637c8-5195-47b5-a269-5f9d71048a56}:d:\ayman\smartair\smartair\mobile_api\program.cs
+i:{4d88c524-eb3d-4148-accc-c945f8faed03}:d:\ayman\smartair\smartair\angular_smarair\program.cs
+++WeatherForecast.cs
+i:{b812564a-7a6f-420e-b1d3-10c7bf34957c}:d:\ayman\smartair\smartair\smartair_api\weatherforecast.cs
+i:{56d637c8-5195-47b5-a269-5f9d71048a56}:d:\ayman\smartair\smartair\mobile_api\weatherforecast.cs
+i:{4d88c524-eb3d-4148-accc-c945f8faed03}:d:\ayman\smartair\smartair\angular_smarair\weatherforecast.cs
+++No service dependencies discovered
+i:{b812564a-7a6f-420e-b1d3-10c7bf34957c}:>981
+i:{56d637c8-5195-47b5-a269-5f9d71048a56}:>982
+i:{4d88c524-eb3d-4148-accc-c945f8faed03}:>980
+++Projects
+i:{b812564a-7a6f-420e-b1d3-10c7bf34957c}:projects
+i:{56d637c8-5195-47b5-a269-5f9d71048a56}:projects
+i:{f89a78b6-50ec-44f2-ad6b-e7d9ab537cd8}:projects
+++launchSettings.json
+i:{b812564a-7a6f-420e-b1d3-10c7bf34957c}:d:\ayman\smartair\smartair\smartair_api\properties\launchsettings.json
+i:{56d637c8-5195-47b5-a269-5f9d71048a56}:d:\ayman\smartair\smartair\mobile_api\properties\launchsettings.json
+i:{4d88c524-eb3d-4148-accc-c945f8faed03}:d:\ayman\smartair\smartair\angular_smarair\properties\launchsettings.json
+++WeatherForecastController.cs
+i:{b812564a-7a6f-420e-b1d3-10c7bf34957c}:d:\ayman\smartair\smartair\smartair_api\controllers\weatherforecastcontroller.cs
+i:{56d637c8-5195-47b5-a269-5f9d71048a56}:d:\ayman\smartair\smartair\mobile_api\controllers\weatherforecastcontroller.cs
+i:{4d88c524-eb3d-4148-accc-c945f8faed03}:d:\ayman\smartair\smartair\angular_smarair\controllers\weatherforecastcontroller.cs
+++appsettings.Development.json
+i:{b812564a-7a6f-420e-b1d3-10c7bf34957c}:d:\ayman\smartair\smartair\smartair_api\appsettings.development.json
+i:{56d637c8-5195-47b5-a269-5f9d71048a56}:d:\ayman\smartair\smartair\mobile_api\appsettings.development.json
+i:{4d88c524-eb3d-4148-accc-c945f8faed03}:d:\ayman\smartair\smartair\angular_smarair\appsettings.development.json
+++Microsoft.AspNetCore.Analyzers
+i:{b812564a-7a6f-420e-b1d3-10c7bf34957c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+i:{56d637c8-5195-47b5-a269-5f9d71048a56}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+i:{4d88c524-eb3d-4148-accc-c945f8faed03}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.App.Analyzers
+i:{b812564a-7a6f-420e-b1d3-10c7bf34957c}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+i:{56d637c8-5195-47b5-a269-5f9d71048a56}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+i:{4d88c524-eb3d-4148-accc-c945f8faed03}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+++Microsoft.AspNetCore.App.CodeFixes
+i:{b812564a-7a6f-420e-b1d3-10c7bf34957c}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+i:{56d637c8-5195-47b5-a269-5f9d71048a56}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+i:{4d88c524-eb3d-4148-accc-c945f8faed03}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{b812564a-7a6f-420e-b1d3-10c7bf34957c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+i:{56d637c8-5195-47b5-a269-5f9d71048a56}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+i:{4d88c524-eb3d-4148-accc-c945f8faed03}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{b812564a-7a6f-420e-b1d3-10c7bf34957c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+i:{56d637c8-5195-47b5-a269-5f9d71048a56}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+i:{4d88c524-eb3d-4148-accc-c945f8faed03}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.AspNetCore.Razor.Internal.SourceGenerator.Transport
+i:{b812564a-7a6f-420e-b1d3-10c7bf34957c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.internal.sourcegenerator.transport.dll
+i:{56d637c8-5195-47b5-a269-5f9d71048a56}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.internal.sourcegenerator.transport.dll
+i:{4d88c524-eb3d-4148-accc-c945f8faed03}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.internal.sourcegenerator.transport.dll
+++Microsoft.NET.Sdk.Razor.SourceGenerators
+i:{b812564a-7a6f-420e-b1d3-10c7bf34957c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+i:{56d637c8-5195-47b5-a269-5f9d71048a56}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+i:{4d88c524-eb3d-4148-accc-c945f8faed03}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+++Microsoft.AspNetCore.App
+i:{b812564a-7a6f-420e-b1d3-10c7bf34957c}:d:\ayman\smartair\smartair\smartair_api\microsoft.aspnetcore.app
+i:{56d637c8-5195-47b5-a269-5f9d71048a56}:d:\ayman\smartair\smartair\mobile_api\microsoft.aspnetcore.app
+i:{4d88c524-eb3d-4148-accc-c945f8faed03}:d:\ayman\smartair\smartair\angular_smarair\microsoft.aspnetcore.app
+++Microsoft.AspNetCore.Authentication.JwtBearer (6.0.1)
+i:{b812564a-7a6f-420e-b1d3-10c7bf34957c}:>1079
+++Swashbuckle.AspNetCore (6.2.3)
+i:{b812564a-7a6f-420e-b1d3-10c7bf34957c}:>1025
+i:{56d637c8-5195-47b5-a269-5f9d71048a56}:>1013
+++BLL
+i:{b812564a-7a6f-420e-b1d3-10c7bf34957c}:d:\ayman\smartair\smartair\bll\bll.csproj
+i:{56d637c8-5195-47b5-a269-5f9d71048a56}:d:\ayman\smartair\smartair\bll\bll.csproj
+i:{00000000-0000-0000-0000-000000000000}:BLL
+++Mobile_Api
+i:{00000000-0000-0000-0000-000000000000}:Mobile_Api
+++IRepositories
+i:{f89a78b6-50ec-44f2-ad6b-e7d9ab537cd8}:d:\ayman\smartair\smartair\bll\irepositories\
+++Repositories
+i:{f89a78b6-50ec-44f2-ad6b-e7d9ab537cd8}:d:\ayman\smartair\smartair\bll\repositories\
+++Smart_VM
+i:{f89a78b6-50ec-44f2-ad6b-e7d9ab537cd8}:d:\ayman\smartair\smartair\bll\smart_vm\
+++IBaseRepo.cs
+i:{f89a78b6-50ec-44f2-ad6b-e7d9ab537cd8}:d:\ayman\smartair\smartair\bll\irepositories\ibaserepo.cs
+++IRepoWrapper.cs
+i:{f89a78b6-50ec-44f2-ad6b-e7d9ab537cd8}:d:\ayman\smartair\smartair\bll\irepositories\irepowrapper.cs
+++BaseRepo.cs
+i:{f89a78b6-50ec-44f2-ad6b-e7d9ab537cd8}:d:\ayman\smartair\smartair\bll\repositories\baserepo.cs
+++RepoWrapper.cs
+i:{f89a78b6-50ec-44f2-ad6b-e7d9ab537cd8}:d:\ayman\smartair\smartair\bll\repositories\repowrapper.cs
+++TestQuery.cs
+i:{f89a78b6-50ec-44f2-ad6b-e7d9ab537cd8}:d:\ayman\smartair\smartair\bll\repositories\testquery.cs
+++Login_VM.cs
+i:{f89a78b6-50ec-44f2-ad6b-e7d9ab537cd8}:d:\ayman\smartair\smartair\bll\smart_vm\login_vm.cs
+++Oracle.ManagedDataAccess (21.5.0)
+i:{f89a78b6-50ec-44f2-ad6b-e7d9ab537cd8}:>989
+++Angular_SmarAir
+i:{00000000-0000-0000-0000-000000000000}:Angular_SmarAir
+++wwwroot
+i:{4d88c524-eb3d-4148-accc-c945f8faed03}:d:\ayman\smartair\smartair\angular_smarair\wwwroot\
+++ClientApp
+i:{4d88c524-eb3d-4148-accc-c945f8faed03}:d:\ayman\smartair\smartair\angular_smarair\clientapp\
+++Pages
+i:{4d88c524-eb3d-4148-accc-c945f8faed03}:d:\ayman\smartair\smartair\angular_smarair\pages\
+++.gitignore
+i:{4d88c524-eb3d-4148-accc-c945f8faed03}:d:\ayman\smartair\smartair\angular_smarair\.gitignore
+i:{4d88c524-eb3d-4148-accc-c945f8faed03}:d:\ayman\smartair\smartair\angular_smarair\clientapp\.gitignore
+++favicon.ico
+i:{4d88c524-eb3d-4148-accc-c945f8faed03}:d:\ayman\smartair\smartair\angular_smarair\wwwroot\favicon.ico
+++src
+i:{4d88c524-eb3d-4148-accc-c945f8faed03}:d:\ayman\smartair\smartair\angular_smarair\clientapp\src\
+++.browserslistrc
+i:{4d88c524-eb3d-4148-accc-c945f8faed03}:d:\ayman\smartair\smartair\angular_smarair\clientapp\.browserslistrc
+++.editorconfig
+i:{4d88c524-eb3d-4148-accc-c945f8faed03}:d:\ayman\smartair\smartair\angular_smarair\clientapp\.editorconfig
+++angular.json
+i:{4d88c524-eb3d-4148-accc-c945f8faed03}:d:\ayman\smartair\smartair\angular_smarair\clientapp\angular.json
+++karma.conf.js
+i:{4d88c524-eb3d-4148-accc-c945f8faed03}:d:\ayman\smartair\smartair\angular_smarair\clientapp\karma.conf.js
+++package.json
+i:{4d88c524-eb3d-4148-accc-c945f8faed03}:d:\ayman\smartair\smartair\angular_smarair\clientapp\package.json
+++proxy.conf.js
+i:{4d88c524-eb3d-4148-accc-c945f8faed03}:d:\ayman\smartair\smartair\angular_smarair\clientapp\proxy.conf.js
+++README.md
+i:{4d88c524-eb3d-4148-accc-c945f8faed03}:d:\ayman\smartair\smartair\angular_smarair\clientapp\readme.md
+++tsconfig.json
+i:{4d88c524-eb3d-4148-accc-c945f8faed03}:d:\ayman\smartair\smartair\angular_smarair\clientapp\tsconfig.json
+++_ViewImports.cshtml
+i:{4d88c524-eb3d-4148-accc-c945f8faed03}:d:\ayman\smartair\smartair\angular_smarair\pages\_viewimports.cshtml
+++Error.cshtml
+i:{4d88c524-eb3d-4148-accc-c945f8faed03}:d:\ayman\smartair\smartair\angular_smarair\pages\error.cshtml
+++Microsoft.AspNetCore.SpaProxy (6.0.0)
+i:{4d88c524-eb3d-4148-accc-c945f8faed03}:>1075
+++app
+i:{4d88c524-eb3d-4148-accc-c945f8faed03}:d:\ayman\smartair\smartair\angular_smarair\clientapp\src\app\
+++assets
+i:{4d88c524-eb3d-4148-accc-c945f8faed03}:d:\ayman\smartair\smartair\angular_smarair\clientapp\src\assets\
+++environments
+i:{4d88c524-eb3d-4148-accc-c945f8faed03}:d:\ayman\smartair\smartair\angular_smarair\clientapp\src\environments\
+++index.html
+i:{4d88c524-eb3d-4148-accc-c945f8faed03}:d:\ayman\smartair\smartair\angular_smarair\clientapp\src\index.html
+++main.ts
+i:{4d88c524-eb3d-4148-accc-c945f8faed03}:d:\ayman\smartair\smartair\angular_smarair\clientapp\src\main.ts
+++polyfills.ts
+i:{4d88c524-eb3d-4148-accc-c945f8faed03}:d:\ayman\smartair\smartair\angular_smarair\clientapp\src\polyfills.ts
+++styles.css
+i:{4d88c524-eb3d-4148-accc-c945f8faed03}:d:\ayman\smartair\smartair\angular_smarair\clientapp\src\styles.css
+++test.ts
+i:{4d88c524-eb3d-4148-accc-c945f8faed03}:d:\ayman\smartair\smartair\angular_smarair\clientapp\src\test.ts
+++package-lock.json
+i:{4d88c524-eb3d-4148-accc-c945f8faed03}:d:\ayman\smartair\smartair\angular_smarair\clientapp\package-lock.json
+++tsconfig.app.json
+i:{4d88c524-eb3d-4148-accc-c945f8faed03}:d:\ayman\smartair\smartair\angular_smarair\clientapp\tsconfig.app.json
+++tsconfig.spec.json
+i:{4d88c524-eb3d-4148-accc-c945f8faed03}:d:\ayman\smartair\smartair\angular_smarair\clientapp\tsconfig.spec.json
+++Error.cshtml.cs
+i:{4d88c524-eb3d-4148-accc-c945f8faed03}:d:\ayman\smartair\smartair\angular_smarair\pages\error.cshtml.cs
+++counter
+i:{4d88c524-eb3d-4148-accc-c945f8faed03}:d:\ayman\smartair\smartair\angular_smarair\clientapp\src\app\counter\
+++fetch-data
+i:{4d88c524-eb3d-4148-accc-c945f8faed03}:d:\ayman\smartair\smartair\angular_smarair\clientapp\src\app\fetch-data\
+++home
+i:{4d88c524-eb3d-4148-accc-c945f8faed03}:d:\ayman\smartair\smartair\angular_smarair\clientapp\src\app\home\
+++nav-menu
+i:{4d88c524-eb3d-4148-accc-c945f8faed03}:d:\ayman\smartair\smartair\angular_smarair\clientapp\src\app\nav-menu\
+++app.component.html
+i:{4d88c524-eb3d-4148-accc-c945f8faed03}:d:\ayman\smartair\smartair\angular_smarair\clientapp\src\app\app.component.html
+++app.component.ts
+i:{4d88c524-eb3d-4148-accc-c945f8faed03}:d:\ayman\smartair\smartair\angular_smarair\clientapp\src\app\app.component.ts
+++app.module.ts
+i:{4d88c524-eb3d-4148-accc-c945f8faed03}:d:\ayman\smartair\smartair\angular_smarair\clientapp\src\app\app.module.ts
+++app.server.module.ts
+i:{4d88c524-eb3d-4148-accc-c945f8faed03}:d:\ayman\smartair\smartair\angular_smarair\clientapp\src\app\app.server.module.ts
+++.gitkeep
+i:{4d88c524-eb3d-4148-accc-c945f8faed03}:d:\ayman\smartair\smartair\angular_smarair\clientapp\src\assets\.gitkeep
+++environment.prod.ts
+i:{4d88c524-eb3d-4148-accc-c945f8faed03}:d:\ayman\smartair\smartair\angular_smarair\clientapp\src\environments\environment.prod.ts
+++environment.ts
+i:{4d88c524-eb3d-4148-accc-c945f8faed03}:d:\ayman\smartair\smartair\angular_smarair\clientapp\src\environments\environment.ts
+++counter.component.html
+i:{4d88c524-eb3d-4148-accc-c945f8faed03}:d:\ayman\smartair\smartair\angular_smarair\clientapp\src\app\counter\counter.component.html
+++counter.component.spec.ts
+i:{4d88c524-eb3d-4148-accc-c945f8faed03}:d:\ayman\smartair\smartair\angular_smarair\clientapp\src\app\counter\counter.component.spec.ts
+++counter.component.ts
+i:{4d88c524-eb3d-4148-accc-c945f8faed03}:d:\ayman\smartair\smartair\angular_smarair\clientapp\src\app\counter\counter.component.ts
+++fetch-data.component.html
+i:{4d88c524-eb3d-4148-accc-c945f8faed03}:d:\ayman\smartair\smartair\angular_smarair\clientapp\src\app\fetch-data\fetch-data.component.html
+++fetch-data.component.ts
+i:{4d88c524-eb3d-4148-accc-c945f8faed03}:d:\ayman\smartair\smartair\angular_smarair\clientapp\src\app\fetch-data\fetch-data.component.ts
+++home.component.html
+i:{4d88c524-eb3d-4148-accc-c945f8faed03}:d:\ayman\smartair\smartair\angular_smarair\clientapp\src\app\home\home.component.html
+++home.component.ts
+i:{4d88c524-eb3d-4148-accc-c945f8faed03}:d:\ayman\smartair\smartair\angular_smarair\clientapp\src\app\home\home.component.ts
+++nav-menu.component.css
+i:{4d88c524-eb3d-4148-accc-c945f8faed03}:d:\ayman\smartair\smartair\angular_smarair\clientapp\src\app\nav-menu\nav-menu.component.css
+++nav-menu.component.html
+i:{4d88c524-eb3d-4148-accc-c945f8faed03}:d:\ayman\smartair\smartair\angular_smarair\clientapp\src\app\nav-menu\nav-menu.component.html
+++nav-menu.component.ts
+i:{4d88c524-eb3d-4148-accc-c945f8faed03}:d:\ayman\smartair\smartair\angular_smarair\clientapp\src\app\nav-menu\nav-menu.component.ts
+++Solution 'SmartAir' ‎(6 of 6 projects)
+i:{00000000-0000-0000-0000-000000000000}:SmartAir.sln
+++SL
+i:{00000000-0000-0000-0000-000000000000}:SL
+++Class1.cs
+++C:\Program Files\dotnet\sdk\6.0.100\Sdks\Microsoft.NET.Sdk\targets\..\analyzers\Microsoft.CodeAnalysis.CSharp.NetAnalyzers.dll
+++C:\Program Files\dotnet\sdk\6.0.100\Sdks\Microsoft.NET.Sdk\targets\..\analyzers\Microsoft.CodeAnalysis.NetAnalyzers.dll
+++NewFolder
+++Helpers
+++AppSettings.cs
+i:{1c55cf40-3f51-4099-a8c1-89844468914c}:d:\ayman\smartair\smartair\dal\viewmodels\appsettings.cs
+++AuthorizeAttribute.cs
+++JwtMiddleware.cs
+++IUserRepo.cs
+i:{f89a78b6-50ec-44f2-ad6b-e7d9ab537cd8}:d:\ayman\smartair\smartair\bll\irepositories\iuserrepo.cs
+++UserRepo.cs
+i:{f89a78b6-50ec-44f2-ad6b-e7d9ab537cd8}:d:\ayman\smartair\smartair\bll\repositories\userrepo.cs
+++ViewModels
+i:{1c55cf40-3f51-4099-a8c1-89844468914c}:d:\ayman\smartair\smartair\dal\viewmodels\
+++AuthenticateRequest.cs
+i:{1c55cf40-3f51-4099-a8c1-89844468914c}:d:\ayman\smartair\smartair\dal\viewmodels\authenticaterequest.cs
+++AuthenticateResponse.cs
+i:{1c55cf40-3f51-4099-a8c1-89844468914c}:d:\ayman\smartair\smartair\dal\viewmodels\authenticateresponse.cs
+++UserController.cs
+i:{b812564a-7a6f-420e-b1d3-10c7bf34957c}:d:\ayman\smartair\smartair\smartair_api\controllers\usercontroller.cs
+++f4itf1ya.doe~
+++UserController.cs~RF10697d3c.TMP
+++AutoMapper (11.0.0)
+i:{b812564a-7a6f-420e-b1d3-10c7bf34957c}:>1168
+++System.IdentityModel.Tokens.Jwt (6.15.1)
+i:{b812564a-7a6f-420e-b1d3-10c7bf34957c}:>1191
+++SchemesNamesConst.cs

@@ -1,0 +1,12 @@
+D:\Ayman\SmartAir\SmartAir\SL\bin\Debug\net6.0\SL.deps.json
+D:\Ayman\SmartAir\SmartAir\SL\bin\Debug\net6.0\SL.dll
+D:\Ayman\SmartAir\SmartAir\SL\bin\Debug\net6.0\ref\SL.dll
+D:\Ayman\SmartAir\SmartAir\SL\bin\Debug\net6.0\SL.pdb
+D:\Ayman\SmartAir\SmartAir\SL\obj\Debug\net6.0\SL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Ayman\SmartAir\SmartAir\SL\obj\Debug\net6.0\SL.AssemblyInfoInputs.cache
+D:\Ayman\SmartAir\SmartAir\SL\obj\Debug\net6.0\SL.AssemblyInfo.cs
+D:\Ayman\SmartAir\SmartAir\SL\obj\Debug\net6.0\SL.csproj.CoreCompileInputs.cache
+D:\Ayman\SmartAir\SmartAir\SL\obj\Debug\net6.0\SL.dll
+D:\Ayman\SmartAir\SmartAir\SL\obj\Debug\net6.0\ref\SL.dll
+D:\Ayman\SmartAir\SmartAir\SL\obj\Debug\net6.0\SL.pdb
+D:\Ayman\SmartAir\SmartAir\SL\obj\Debug\net6.0\SL.csproj.AssemblyReference.cache
