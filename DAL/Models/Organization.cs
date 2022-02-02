@@ -13,20 +13,24 @@ namespace DAL.Models
         public string Name { set; get; }
         public string Phone { set; get; }
         public string Email { set; get; }
-        public decimal Latitude { set; get; }
-        public decimal Longitude { set; get; }
-        public string WebsiteURL { set; get; }
-        public bool HaveDelivery { set; get; } = false;
-        public bool Active { set; get; } //Status Of Organization Online /Offline 
+        public decimal? Latitude { set; get; }
+        public decimal? Longitude { set; get; }
+        public string? WebsiteURL { set; get; }
+        public bool? HaveDelivery { set; get; } = false;
+        public bool? Active { set; get; } //Status Of Organization Online /Offline 
+        public string? TestingProductionURL { set; get; }
+        public string? IntegrationProductionURL { set; get; }
         
         [ForeignKey("OrganizationType")]
-        public int OrganizationTypeId { set; get; }
+        public int? OrganizationTypeId { set; get; }
+        public int IntegrationConfigurationId { set; get; }
         public OrganizationType OrganizationType { set; get; }
         public ICollection<LabPcrType> labPcrTypes { set; get; }
         public ICollection<TransportationType> transportationTypes { set; get; }
         public ICollection<Trip> trips { set; get; }
         public ICollection<OrganizationPackag> organizationPackags { set; get; }
         public ICollection<Plane> planes { set; get; }
+        public IntegrationConfiguration IntegrationConfiguration { set; get; }
 
     }
 }
