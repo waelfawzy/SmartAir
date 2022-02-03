@@ -1,41 +1,43 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Ayman\\SmartAir\\SmartAir\\SmartAir_Api\\SmartAir_Api.csproj": {}
+    "D:\\4S_Study\\SmartAir\\SmartAir_Api\\SmartAir_Api.csproj": {}
   },
   "projects": {
-    "D:\\Ayman\\SmartAir\\SmartAir\\BLL\\BLL.csproj": {
+    "D:\\4S_Study\\SmartAir\\BLL\\BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Ayman\\SmartAir\\SmartAir\\BLL\\BLL.csproj",
+        "projectUniqueName": "D:\\4S_Study\\SmartAir\\BLL\\BLL.csproj",
         "projectName": "BLL",
-        "projectPath": "D:\\Ayman\\SmartAir\\SmartAir\\BLL\\BLL.csproj",
-        "packagesPath": "C:\\Users\\aabdelkader\\.nuget\\packages\\",
-        "outputPath": "D:\\Ayman\\SmartAir\\SmartAir\\BLL\\obj\\",
+        "projectPath": "D:\\4S_Study\\SmartAir\\BLL\\BLL.csproj",
+        "packagesPath": "C:\\Users\\Zahraa\\.nuget\\packages\\",
+        "outputPath": "D:\\4S_Study\\SmartAir\\BLL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\aabdelkader\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Zahraa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/nuget": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Ayman\\SmartAir\\SmartAir\\DAL\\DAL.csproj": {
-                "projectPath": "D:\\Ayman\\SmartAir\\SmartAir\\DAL\\DAL.csproj"
+              "D:\\4S_Study\\SmartAir\\DAL\\DAL.csproj": {
+                "projectPath": "D:\\4S_Study\\SmartAir\\DAL\\DAL.csproj"
               },
-              "D:\\Ayman\\SmartAir\\SmartAir\\SL\\SL.csproj": {
-                "projectPath": "D:\\Ayman\\SmartAir\\SmartAir\\SL\\SL.csproj"
+              "D:\\4S_Study\\SmartAir\\SL\\SL.csproj": {
+                "projectPath": "D:\\4S_Study\\SmartAir\\SL\\SL.csproj"
               }
             }
           }
@@ -74,32 +76,34 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Ayman\\SmartAir\\SmartAir\\DAL\\DAL.csproj": {
+    "D:\\4S_Study\\SmartAir\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Ayman\\SmartAir\\SmartAir\\DAL\\DAL.csproj",
+        "projectUniqueName": "D:\\4S_Study\\SmartAir\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "D:\\Ayman\\SmartAir\\SmartAir\\DAL\\DAL.csproj",
-        "packagesPath": "C:\\Users\\aabdelkader\\.nuget\\packages\\",
-        "outputPath": "D:\\Ayman\\SmartAir\\SmartAir\\DAL\\obj\\",
+        "projectPath": "D:\\4S_Study\\SmartAir\\DAL\\DAL.csproj",
+        "packagesPath": "C:\\Users\\Zahraa\\.nuget\\packages\\",
+        "outputPath": "D:\\4S_Study\\SmartAir\\DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\aabdelkader\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Zahraa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/nuget": {}
         },
         "frameworks": {
           "net6.0": {
@@ -153,32 +157,34 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Ayman\\SmartAir\\SmartAir\\SL\\SL.csproj": {
+    "D:\\4S_Study\\SmartAir\\SL\\SL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Ayman\\SmartAir\\SmartAir\\SL\\SL.csproj",
+        "projectUniqueName": "D:\\4S_Study\\SmartAir\\SL\\SL.csproj",
         "projectName": "SL",
-        "projectPath": "D:\\Ayman\\SmartAir\\SmartAir\\SL\\SL.csproj",
-        "packagesPath": "C:\\Users\\aabdelkader\\.nuget\\packages\\",
-        "outputPath": "D:\\Ayman\\SmartAir\\SmartAir\\SL\\obj\\",
+        "projectPath": "D:\\4S_Study\\SmartAir\\SL\\SL.csproj",
+        "packagesPath": "C:\\Users\\Zahraa\\.nuget\\packages\\",
+        "outputPath": "D:\\4S_Study\\SmartAir\\SL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\aabdelkader\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Zahraa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/nuget": {}
         },
         "frameworks": {
           "net6.0": {
@@ -220,42 +226,44 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Ayman\\SmartAir\\SmartAir\\SmartAir_Api\\SmartAir_Api.csproj": {
+    "D:\\4S_Study\\SmartAir\\SmartAir_Api\\SmartAir_Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Ayman\\SmartAir\\SmartAir\\SmartAir_Api\\SmartAir_Api.csproj",
+        "projectUniqueName": "D:\\4S_Study\\SmartAir\\SmartAir_Api\\SmartAir_Api.csproj",
         "projectName": "SmartAir_Api",
-        "projectPath": "D:\\Ayman\\SmartAir\\SmartAir\\SmartAir_Api\\SmartAir_Api.csproj",
-        "packagesPath": "C:\\Users\\aabdelkader\\.nuget\\packages\\",
-        "outputPath": "D:\\Ayman\\SmartAir\\SmartAir\\SmartAir_Api\\obj\\",
+        "projectPath": "D:\\4S_Study\\SmartAir\\SmartAir_Api\\SmartAir_Api.csproj",
+        "packagesPath": "C:\\Users\\Zahraa\\.nuget\\packages\\",
+        "outputPath": "D:\\4S_Study\\SmartAir\\SmartAir_Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\aabdelkader\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Zahraa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/nuget": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Ayman\\SmartAir\\SmartAir\\BLL\\BLL.csproj": {
-                "projectPath": "D:\\Ayman\\SmartAir\\SmartAir\\BLL\\BLL.csproj"
+              "D:\\4S_Study\\SmartAir\\BLL\\BLL.csproj": {
+                "projectPath": "D:\\4S_Study\\SmartAir\\BLL\\BLL.csproj"
               },
-              "D:\\Ayman\\SmartAir\\SmartAir\\DAL\\DAL.csproj": {
-                "projectPath": "D:\\Ayman\\SmartAir\\SmartAir\\DAL\\DAL.csproj"
+              "D:\\4S_Study\\SmartAir\\DAL\\DAL.csproj": {
+                "projectPath": "D:\\4S_Study\\SmartAir\\DAL\\DAL.csproj"
               }
             }
           }
@@ -319,7 +327,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
