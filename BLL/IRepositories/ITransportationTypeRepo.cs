@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace BLL.IRepositories
 {
-    internal interface ITransportationTypeRepo:IBaseRepo<TransportationType>
+    public interface ITransportationTypeRepo:IBaseRepo<TransportationType>
     {
     }
 }
