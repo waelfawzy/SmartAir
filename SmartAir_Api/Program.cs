@@ -42,6 +42,7 @@ var SecretKey = builder.Configuration["AppSettings:SecretKey"];
     // configure DI for application services
     services.AddDbContext<SmartContext>(options => options.UseSqlServer(connectionString));
     services.AddScoped<IUserRepo, UserRepo>();
+    services.AddScoped<IRepoWrapper, RepoWrapper>();
     services.AddTransient<ITokenService, TokenService>();
 
 
