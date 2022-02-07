@@ -14,49 +14,49 @@ namespace BLL.Repositories
         SmartContext _Context;
 
 
-        private IAirportActivityRepo airportActivity { get; }
-        private IAirPortRepo airPort { get; }
-        private IBusinessOfferRepo businessOffer { get; }
-        private ICountryRepo country { get; }
-        private ICurrencyRepo currency { get; }
-        private IDisabilityTypeRepo disabilityType { get; }
-        private IEventsRepo events { get; }
-        private IFieldEventsRepo fieldEvents { get; }
-        private IFieldRepo field { get; }
-        private IFieldValidationsRepo fieldValidations { get; }
-        private IFlightRepo flight { get; }
-        private IGarageRepo garage { get; }
-        private IIntegrationConfigurationRepo integrationConfiguration { get; }
-        private IIntegrationsTransactionsRepo integrationsTransactions { get; }
-        private ILabPcrTypeRepo labPcrType { get; }
-        private IOrganizationPackagRepo organizationPackag { get; }
-        private IOrganizationRepo organization { get; }
-        private IOrganizationTypeRepo organizationType { get; }
-        private IPaymentTypeRepo paymentType { get; }
-        private IPcrTypeRepo pcrType { get; }
-        private IPermissionRepo permission { get; }
-        private IPlaneRepo plane { get; }
-        private IProductRepo product { get; }
-        private IProductUnitsRepo productUnits { get; }
-        private IReservationRepo reservation { get; }
-        private IReservationTypeRepo reservationType { get; }
-        private IRoleRepo role { get; }
-        private IRoomRepo room { get; }
-        private IRoomTypeRepo roomType { get; }
-        private ISeatRepo seat { get; }
-        private ISmartConfigurationsRepo smartConfigurations { get; }
-        private IStatusTypeRepo statusType { get; }
-        private ISuperMarketProductsRepo superMarketProducts { get; }
-        private ITerminalRepo terminal { get; }
-        private ITransportationDetailsRepo transportationDetails { get; }
-        private ITransportationRepo transportation { get; }
-        private ITransportationTypeRepo transportationType { get; }
-        private ITripRepo trip { get; }
-        private ITripTransportationRepo tripTransportation { get; }
-        private IUnitRepo unit { get; }
-        private IUserBusnessOffersRepo userBusnessOffers { get; }
-        private IUserRepo user { get; }
-        private IValidationRepo validation { get; }
+        private IAirportActivityRepo airportActivity { get; set; }
+        private IAirPortRepo airPort { get; set; }
+        private IBusinessOfferRepo businessOffer { get; set; }
+        private ICountryRepo country { get; set; }
+        private ICurrencyRepo currency { get; set; }
+        private IDisabilityTypeRepo disabilityType { get; set; }
+        private IEventsRepo events { get; set; }
+        private IFieldEventsRepo fieldEvents { get; set; }
+        private IFieldRepo field { get; set; }
+        private IFieldValidationsRepo fieldValidations { get; set; }
+        private IFlightRepo flight { get; set; }
+        private IGarageRepo garage { get; set; }
+        private IIntegrationConfigurationRepo integrationConfiguration { get; set; }
+        private IIntegrationsTransactionsRepo integrationsTransactions { get; set; }
+        private ILabPcrTypeRepo labPcrType { get; set; }
+        private IOrganizationPackagRepo organizationPackag { get; set; }
+        private IOrganizationRepo organization { get; set;  }
+        private IOrganizationTypeRepo organizationType { get; set; }
+        private IPaymentTypeRepo paymentType { get; set; }
+        private IPcrTypeRepo pcrType { get; set; }
+        private IPermissionRepo permission { get; set; }
+        private IPlaneRepo plane { get; set; }
+        private IProductRepo product { get; set; }
+        private IProductUnitsRepo productUnits { get; set; }
+        private IReservationRepo reservation { get; set; }
+        private IReservationTypeRepo reservationType { get; set; }
+        private IRoleRepo role { get; set; }
+        private IRoomRepo room { get; set; }
+        private IRoomTypeRepo roomType { get; set; }
+        private ISeatRepo seat { get; set; }
+        private ISmartConfigurationsRepo smartConfigurations { get; set; }
+        private IStatusTypeRepo statusType { get; set; }
+        private ISuperMarketProductsRepo superMarketProducts { get; set; }
+        private ITerminalRepo terminal { get; set; }
+        private ITransportationDetailsRepo transportationDetails { get; set; }
+        private ITransportationRepo transportation { get; set; }
+        private ITransportationTypeRepo transportationType { get; set; }
+        private ITripRepo trip { get; set; }
+        private ITripTransportationRepo tripTransportation { get; set; }
+        private IUnitRepo unit { get; set; }
+        private IUserBusnessOffersRepo userBusnessOffers { get; set; }
+        private IUserRepo user { get; set; }
+        private IValidationRepo validation { get; set; }
 
         public RepoWrapper(SmartContext context)
         {
@@ -67,92 +67,83 @@ namespace BLL.Repositories
 
 
 
-        public IAirportActivityRepo _AirportActivity => throw new NotImplementedException();
+        public IAirportActivityRepo _AirportActivity { get { if (airportActivity == null) airportActivity = new AirportActivityRepo(_Context); return airportActivity; } }
+
+        public ICountryRepo _Country { get { if (country == null) country = new CountryRepo(_Context); return country; } }
 
 
-        public IAirPortRepo _AirPort => throw new NotImplementedException();
+        public IAirPortRepo _AirPort { get { if (airPort == null) airPort = new AirPortRepo(_Context); return airPort; } }
 
-        public IBusinessOfferRepo _BusinessOffer => throw new NotImplementedException();
+        public IBusinessOfferRepo _BusinessOffer { get { if (businessOffer == null) businessOffer = new BusinessOfferRepo(_Context); return businessOffer; } }
 
-        public ICountryRepo _Country => throw new NotImplementedException();
+        public ICurrencyRepo _Currency { get { if (currency == null) currency = new CurrencyRepo(_Context); return currency; } }
 
-        public ICurrencyRepo _Currency => throw new NotImplementedException();
+        public IDisabilityTypeRepo _DisabilityType { get { if (disabilityType == null) disabilityType = new DisabilityTypeRepo(_Context); return disabilityType; } }
 
-        public IDisabilityTypeRepo _DisabilityType => throw new NotImplementedException();
+        public IEventsRepo _Events { get { if (events == null) events = new EventsRepo(_Context); return events; } }
 
-        public IEventsRepo _Events => throw new NotImplementedException();
+        public IFieldEventsRepo _FieldEvents { get { if (fieldEvents == null) fieldEvents = new FieldEventsRepo(_Context); return fieldEvents; } }
 
-        public IFieldEventsRepo _FieldEvents => throw new NotImplementedException();
+        public IFieldRepo _Field { get { if (field == null) field = new FieldRepo(_Context); return field; } }
 
-        public IFieldRepo _Field => throw new NotImplementedException();
+        public IFieldValidationsRepo _FieldValidations { get { if (fieldValidations == null) fieldValidations = new FieldValidationsRepo(_Context); return fieldValidations; } }
 
-        public IFieldValidationsRepo _FieldValidations => throw new NotImplementedException();
+        public IFlightRepo _Flight { get { if (flight == null) flight = new FlightRepo(_Context); return flight; } }
+                                   
+        public IGarageRepo _Garage { get { if (garage == null) garage = new GarageRepo(_Context); return garage; } } 
 
-        public IFlightRepo _Flight => throw new NotImplementedException();
+        public IIntegrationConfigurationRepo _IntegrationConfiguration { get { if (integrationConfiguration == null) integrationConfiguration = new IntegrationConfigurationRepo(_Context); return integrationConfiguration; } }
+        public IIntegrationsTransactionsRepo _IntegrationsTransactions { get { if (integrationsTransactions == null) integrationsTransactions = new IntegrationsTransactionsRepo(_Context); return integrationsTransactions; } }
 
-        public IGarageRepo _Garage => throw new NotImplementedException();
+        public ILabPcrTypeRepo _LabPcrType { get { if (labPcrType == null) labPcrType = new LabPcrTypeRepo(_Context); return labPcrType; } }
 
-        public IIntegrationConfigurationRepo _IntegrationConfiguration => throw new NotImplementedException();
+        public IOrganizationPackagRepo _OrganizationPackag { get { if (organizationPackag == null) organizationPackag = new OrganizationPackagRepo(_Context); return organizationPackag; } }
+        public IOrganizationRepo _Organization { get { if (organization == null) organization = new OrganizationRepo(_Context); return organization; } }
 
-        public IIntegrationsTransactionsRepo _IntegrationsTransactions => throw new NotImplementedException();
+        public IOrganizationTypeRepo _OrganizationType { get { if (organizationType == null) organizationType = new OrganizationTypeRepo(_Context); return organizationType; } }
+        public IPaymentTypeRepo _PaymentType { get { if (paymentType == null) paymentType = new PaymentTypeRepo(_Context); return paymentType; } }
+        public IPcrTypeRepo _PcrType { get { if (pcrType == null) pcrType = new PcrTypeRepo(_Context); return pcrType; } }
 
-        public ILabPcrTypeRepo _LabPcrType => throw new NotImplementedException();
+        public IPermissionRepo _Permission { get { if (permission == null) permission = new PermissionRepo(_Context); return permission; } }
 
-        public IOrganizationPackagRepo _OrganizationPackag => throw new NotImplementedException();
+        public IPlaneRepo _Plane { get { if (plane == null) plane = new PlaneRepo(_Context); return plane; } }
 
-        public IOrganizationRepo _Organization => throw new NotImplementedException();
+        public IProductRepo _Product { get { if (product == null) product = new ProductRepo(_Context); return product; } }
 
-        public IOrganizationTypeRepo _OrganizationType => throw new NotImplementedException();
+        public IProductUnitsRepo _ProductUnits { get { if (productUnits == null) productUnits = new ProductUnitsRepo(_Context); return productUnits; } }
+        public IReservationRepo _Reservation { get { if (reservation == null) reservation = new ReservationRepo(_Context); return reservation; } }
 
-        public IPaymentTypeRepo _PaymentType => throw new NotImplementedException();
+        public IReservationTypeRepo _ReservationType { get { if (reservationType == null) reservationType = new ReservationTypeRepo(_Context); return reservationType; } }
 
-        public IPcrTypeRepo _PcrType => throw new NotImplementedException();
+        public IRoleRepo _Role { get { if (role == null) role = new RoleRepo(_Context); return role; } }
 
-        public IPermissionRepo _Permission => throw new NotImplementedException();
+        public IRoomRepo _Room { get { if (room == null) room = new RoomRepo(_Context); return room; } }
 
-        public IPlaneRepo _Plane => throw new NotImplementedException();
+        public IRoomTypeRepo _RoomType { get { if (roomType == null) roomType = new RoomTypeRepo(_Context); return roomType; } }
 
-        public IProductRepo _Product => throw new NotImplementedException();
+        public ISeatRepo _Seat { get { if (seat == null) seat = new SeatRepo(_Context); return seat; } }
 
-        public IProductUnitsRepo _ProductUnits => throw new NotImplementedException();
+        public ISmartConfigurationsRepo _SmartConfigurations { get { if (smartConfigurations == null) smartConfigurations = new SmartConfigurationsRepo(_Context); return smartConfigurations; } }
 
-        public IReservationRepo _Reservation => throw new NotImplementedException();
+        public IStatusTypeRepo _StatusType { get { if (statusType == null) statusType = new StatusTypeRepo(_Context); return statusType; } }
 
-        public IReservationTypeRepo _ReservationType => throw new NotImplementedException();
+        public ISuperMarketProductsRepo _SuperMarketProducts { get { if (superMarketProducts == null) superMarketProducts = new SuperMarketProductsRepo(_Context); return superMarketProducts; } }
+        public ITerminalRepo _Terminal { get { if (terminal == null) terminal = new TerminalRepo(_Context); return terminal; } }
 
-        public IRoleRepo _Role => throw new NotImplementedException();
+        public ITransportationDetailsRepo _TransportationDetails { get { if (transportationDetails == null) transportationDetails = new TransportationDetailsRepo(_Context); return transportationDetails; } }
 
-        public IRoomRepo _Room => throw new NotImplementedException();
+        public ITransportationRepo _Transportation { get { if (transportation == null) transportation = new TransportationRepo(_Context); return transportation; } }
+        public ITransportationTypeRepo _TransportationType { get { if (transportationType == null) transportationType = new TransportationTypeRepo(_Context); return transportationType; } }
 
-        public IRoomTypeRepo _RoomType => throw new NotImplementedException();
+        public ITripRepo _Trip { get { if (trip == null) trip = new TripRepo(_Context); return trip; } }
 
-        public ISeatRepo _Seat => throw new NotImplementedException();
+        public ITripTransportationRepo _TripTransportation { get { if (tripTransportation == null) tripTransportation = new TripTransportationRepo(_Context); return tripTransportation; } }
 
-        public ISmartConfigurationsRepo _SmartConfigurations => throw new NotImplementedException();
+        public IUnitRepo _Unit { get { if (unit == null) unit = new UnitRepo(_Context); return unit; } }
+        public IUserBusnessOffersRepo _UserBusnessOffers { get { if (userBusnessOffers == null) userBusnessOffers = new UserBusnessOffersRepo(_Context); return userBusnessOffers; } }
 
-        public IStatusTypeRepo _StatusType => throw new NotImplementedException();
-
-        public ISuperMarketProductsRepo _SuperMarketProducts => throw new NotImplementedException();
-
-        public ITerminalRepo _Terminal => throw new NotImplementedException();
-
-        public ITransportationDetailsRepo _TransportationDetails => throw new NotImplementedException();
-
-        public ITransportationRepo _Transportation => throw new NotImplementedException();
-
-        public ITransportationTypeRepo _TransportationType => throw new NotImplementedException();
-
-        public ITripRepo _Trip => throw new NotImplementedException();
-
-        public ITripTransportationRepo _TripTransportation => throw new NotImplementedException();
-
-        public IUnitRepo _Unit => throw new NotImplementedException();
-
-        public IUserBusnessOffersRepo _UserBusnessOffers => throw new NotImplementedException();
-
-        public IUserRepo _User => throw new NotImplementedException();
-
-        public IValidationRepo _Validation => throw new NotImplementedException();
+        public IUserRepo _User { get { if (user == null) user = new UserRepo(_Context); return user; } }
+        public IValidationRepo _Validation { get { if (validation == null) validation = new ValidationRepo(_Context); return validation; } }
 
         public async Task<List<T>> GetOracle<T>(string squery, Dictionary<string, object> para = null, int type = 0)
         {

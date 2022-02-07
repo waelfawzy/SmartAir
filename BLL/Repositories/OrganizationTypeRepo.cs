@@ -8,10 +8,10 @@ using System.Threading.Tasks;
 
 namespace BLL.Repositories
 {
-    public class PlaneRepo : BaseRepo<DAL.Models.Plane>,IPlaneRepo
+    public class OrganizationTypeRepo : BaseRepo<OrganizationType>, IOrganizationTypeRepo
     {
         private readonly SmartContext _context;
-        public PlaneRepo(SmartContext context) : base(context)
+        public OrganizationTypeRepo(SmartContext context) : base(context)
         {
             this._Context = context;
         }

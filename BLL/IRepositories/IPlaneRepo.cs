@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace BLL.IRepositories
 {
-    public interface IPlaneRepo:IBaseRepo<Plane>
+    public interface IPlaneRepo:IBaseRepo<DAL.Models.Plane>
     {
     }
 }

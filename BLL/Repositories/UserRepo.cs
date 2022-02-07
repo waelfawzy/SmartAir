@@ -28,6 +28,10 @@ namespace BLL.Repositories
             _appSettings = appSettings.Value;
             this.tokenService = tokenService ?? throw new ArgumentNullException(nameof(tokenService));
         }
+        public UserRepo(SmartContext context) : base(context)
+        {
+            this._context = context;
+        }
        
         public async Task<AuthenticateResponse> Authenticate(AuthenticateRequest model)
         {
