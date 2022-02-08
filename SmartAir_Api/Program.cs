@@ -32,7 +32,7 @@ var SecretKey = builder.Configuration["AppSettings:SecretKey"];
     });
     services.AddSwaggerGen(c =>
     {
-        c.SwaggerDoc("Smart Api V1", new() { Title = "Smart Air Services", Version = "Version 1" });
+        c.SwaggerDoc("Smart Api V1", new Microsoft.OpenApi.Models.OpenApiInfo{ Title = "Smart Air Services", Version = "Version 1" });
     });
 
 
@@ -41,7 +41,6 @@ var SecretKey = builder.Configuration["AppSettings:SecretKey"];
 
     // configure DI for application services
     services.AddDbContext<SmartContext>(options => options.UseSqlServer(connectionString));
-    services.AddScoped<IUserRepo, UserRepo>();
     services.AddScoped<IRepoWrapper, RepoWrapper>();
     services.AddTransient<ITokenService, TokenService>();
 
@@ -78,7 +77,8 @@ var app = builder.Build();
         app.UseSwaggerUI(c =>
         {
             c.SwaggerEndpoint("/swagger/v1/swagger.json", "Smart Api V1");
-            c.RoutePrefix = String.Empty;
+
+            //c.RoutePrefix = String.Empty;
         });
     }
     app.UseHttpsRedirection();

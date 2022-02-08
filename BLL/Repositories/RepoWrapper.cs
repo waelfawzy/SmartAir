@@ -11,62 +11,55 @@ namespace BLL.Repositories
 {
     public class RepoWrapper : IRepoWrapper
     {
-        SmartContext _Context;
-
-
-        private IAirportActivityRepo airportActivity { get; set; }
-        private IAirPortRepo airPort { get; set; }
-        private IBusinessOfferRepo businessOffer { get; set; }
-        private ICountryRepo country { get; set; }
-        private ICurrencyRepo currency { get; set; }
-        private IDisabilityTypeRepo disabilityType { get; set; }
-        private IEventsRepo events { get; set; }
-        private IFieldEventsRepo fieldEvents { get; set; }
-        private IFieldRepo field { get; set; }
-        private IFieldValidationsRepo fieldValidations { get; set; }
-        private IFlightRepo flight { get; set; }
-        private IGarageRepo garage { get; set; }
-        private IIntegrationConfigurationRepo integrationConfiguration { get; set; }
-        private IIntegrationsTransactionsRepo integrationsTransactions { get; set; }
-        private ILabPcrTypeRepo labPcrType { get; set; }
-        private IOrganizationPackagRepo organizationPackag { get; set; }
-        private IOrganizationRepo organization { get; set;  }
-        private IOrganizationTypeRepo organizationType { get; set; }
-        private IPaymentTypeRepo paymentType { get; set; }
-        private IPcrTypeRepo pcrType { get; set; }
-        private IPermissionRepo permission { get; set; }
-        private IPlaneRepo plane { get; set; }
-        private IProductRepo product { get; set; }
-        private IProductUnitsRepo productUnits { get; set; }
-        private IReservationRepo reservation { get; set; }
-        private IReservationTypeRepo reservationType { get; set; }
-        private IRoleRepo role { get; set; }
-        private IRoomRepo room { get; set; }
-        private IRoomTypeRepo roomType { get; set; }
-        private ISeatRepo seat { get; set; }
-        private ISmartConfigurationsRepo smartConfigurations { get; set; }
-        private IStatusTypeRepo statusType { get; set; }
-        private ISuperMarketProductsRepo superMarketProducts { get; set; }
-        private ITerminalRepo terminal { get; set; }
-        private ITransportationDetailsRepo transportationDetails { get; set; }
-        private ITransportationRepo transportation { get; set; }
-        private ITransportationTypeRepo transportationType { get; set; }
-        private ITripRepo trip { get; set; }
-        private ITripTransportationRepo tripTransportation { get; set; }
-        private IUnitRepo unit { get; set; }
-        private IUserBusnessOffersRepo userBusnessOffers { get; set; }
-        private IUserRepo user { get; set; }
-        private IValidationRepo validation { get; set; }
+        private SmartContext _Context;
+        private IAirportActivityRepo airportActivity ;
+        private IAirPortRepo airPort ;
+        private IBusinessOfferRepo businessOffer ;
+        private ICountryRepo country ;
+        private ICurrencyRepo currency ;
+        private IDisabilityTypeRepo disabilityType ;
+        private IEventsRepo events ;
+        private IFieldEventsRepo fieldEvents ;
+        private IFieldRepo field ;
+        private IFieldValidationsRepo fieldValidations ;
+        private IFlightRepo flight ;
+        private IGarageRepo garage ;
+        private IIntegrationConfigurationRepo integrationConfiguration ;
+        private IIntegrationsTransactionsRepo integrationsTransactions ;
+        private ILabPcrTypeRepo labPcrType ;
+        private IOrganizationPackagRepo organizationPackag ;
+        private IOrganizationRepo organization ;
+        private IOrganizationTypeRepo organizationType ;
+        private IPaymentTypeRepo paymentType ;
+        private IPcrTypeRepo pcrType ;
+        private IPermissionRepo permission ;
+        private IPlaneRepo plane ;
+        private IProductRepo product ;
+        private IProductUnitsRepo productUnits ;
+        private IReservationRepo reservation ;
+        private IReservationTypeRepo reservationType ;
+        private IRoleRepo role ;
+        private IRoomRepo room ;
+        private IRoomTypeRepo roomType ;
+        private ISeatRepo seat ;
+        private ISmartConfigurationsRepo smartConfigurations ;
+        private IStatusTypeRepo statusType ;
+        private ISuperMarketProductsRepo superMarketProducts ;
+        private ITerminalRepo terminal ;
+        private ITransportationDetailsRepo transportationDetails ;
+        private ITransportationRepo transportation ;
+        private ITransportationTypeRepo transportationType ;
+        private ITripRepo trip ;
+        private ITripTransportationRepo tripTransportation ;
+        private IUnitRepo unit ;
+        private IUserBusnessOffersRepo userBusnessOffers ;
+        private IUserRepo user ;
+        private IValidationRepo validation ;
 
         public RepoWrapper(SmartContext context)
         {
             _Context = context;
         }
-
-
-
-
-
         public IAirportActivityRepo _AirportActivity { get { if (airportActivity == null) airportActivity = new AirportActivityRepo(_Context); return airportActivity; } }
 
         public ICountryRepo _Country { get { if (country == null) country = new CountryRepo(_Context); return country; } }

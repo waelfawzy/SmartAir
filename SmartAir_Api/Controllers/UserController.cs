@@ -10,11 +10,11 @@ namespace SmartAir_Api.Controllers
     [Route("api/[controller]")]
     public class UserController : Controller
     {
-        private readonly IUserRepo repository;
+        private readonly IRepoWrapper repository;
         private readonly IConfiguration _config;
 
 
-        public UserController(IUserRepo repository, IConfiguration config)
+        public UserController(IRepoWrapper repository, IConfiguration config)
         {
             this.repository = repository;
             _config = config;
@@ -27,7 +27,7 @@ namespace SmartAir_Api.Controllers
                 return BadRequest("Invalid client request");
             }
             request.SecretKey= _config["AppSettings:SecretKey"];
-            var user = await repository.Authenticate(request);
+            var user = await repository._User.Authenticate(request);
             if (user == null)
                 return Unauthorized("User Email or Password is not Correct");
             return Ok(user);
@@ -48,7 +48,7 @@ namespace SmartAir_Api.Controllers
                 return BadRequest("Invalid client request");
             }
             request.SecretKey = _config["AppSettings:SecretKey"];
-            var TokenResponse = await repository.Refresh(request);
+            var TokenResponse = await repository._User.Refresh(request);
             if (TokenResponse == null)
                 return Unauthorized("Invalid client request");
             return Ok(TokenResponse);

@@ -1,25 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "D:\\4S_Study\\SmartAir\\SL\\SL.csproj": {}
+    "E:\\SmartAir\\SL\\SL.csproj": {}
   },
   "projects": {
-    "D:\\4S_Study\\SmartAir\\SL\\SL.csproj": {
+    "E:\\SmartAir\\SL\\SL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\4S_Study\\SmartAir\\SL\\SL.csproj",
+        "projectUniqueName": "E:\\SmartAir\\SL\\SL.csproj",
         "projectName": "SL",
-        "projectPath": "D:\\4S_Study\\SmartAir\\SL\\SL.csproj",
-        "packagesPath": "C:\\Users\\Zahraa\\.nuget\\packages\\",
-        "outputPath": "D:\\4S_Study\\SmartAir\\SL\\obj\\",
+        "projectPath": "E:\\SmartAir\\SL\\SL.csproj",
+        "packagesPath": "C:\\Users\\5\\.nuget\\packages\\",
+        "outputPath": "E:\\SmartAir\\SL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Progress\\ToolboxNuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Zahraa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\5\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Telerik UI for WinForms.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"

@@ -40,3 +40,17 @@ D:\Ayman\SmartAir\SmartAir\DAL\obj\Debug\net6.0\ref\DAL.dll
 D:\Ayman\SmartAir\SmartAir\DAL\obj\Debug\net6.0\DAL.pdb
 D:\Ayman\SmartAir\SmartAir\DAL\obj\Debug\net6.0\DAL.genruntimeconfig.cache
 D:\Ayman\SmartAir\SmartAir\DAL\obj\Debug\net6.0\DAL.csproj.AssemblyReference.cache
+E:\SmartAir\DAL\bin\Debug\net6.0\DAL.deps.json
+E:\SmartAir\DAL\bin\Debug\net6.0\DAL.runtimeconfig.json
+E:\SmartAir\DAL\bin\Debug\net6.0\DAL.dll
+E:\SmartAir\DAL\bin\Debug\net6.0\ref\DAL.dll
+E:\SmartAir\DAL\bin\Debug\net6.0\DAL.pdb
+E:\SmartAir\DAL\obj\Debug\net6.0\DAL.csproj.AssemblyReference.cache
+E:\SmartAir\DAL\obj\Debug\net6.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+E:\SmartAir\DAL\obj\Debug\net6.0\DAL.AssemblyInfoInputs.cache
+E:\SmartAir\DAL\obj\Debug\net6.0\DAL.AssemblyInfo.cs
+E:\SmartAir\DAL\obj\Debug\net6.0\DAL.csproj.CoreCompileInputs.cache
+E:\SmartAir\DAL\obj\Debug\net6.0\DAL.dll
+E:\SmartAir\DAL\obj\Debug\net6.0\ref\DAL.dll
+E:\SmartAir\DAL\obj\Debug\net6.0\DAL.pdb
+E:\SmartAir\DAL\obj\Debug\net6.0\DAL.genruntimeconfig.cache
