@@ -19,6 +19,7 @@ namespace DAL.Models
         public DbSet<BusinessOffer> BusinessOffers { set; get; }
         public DbSet<Country> Countries { set; get; }
         public DbSet<Currency> Currency { set; get; }
+        public DbSet<Controle> Controle { set; get; }
         public DbSet<DisabilityType> DisabilityTypes { set; get; }
         public DbSet<Events> Events { set; get; }
         public DbSet<Field> Fields { set; get; }
@@ -52,6 +53,7 @@ namespace DAL.Models
         public DbSet<UserBusnessOffers> UserBusnessOffers { set;get; }
         public DbSet<UserDisability> UserDisability { set; get; }
         public DbSet<Validations> Validations { set; get; }
+        public DbSet<ValidationTypes> ValidationTypes { set; get; }
         public DbSet<SmartConfigurations> SmartConfigurations { set; get; }
         
     }

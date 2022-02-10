@@ -16,7 +16,8 @@ namespace DAL.Models
         [ForeignKey("Validations")]
         public int ValidationId { set; get; }
         public DateTime InsertionDate { set; get; } = DateTime.Now;
-        public bool Active { set; get; } = true;    
+        public bool Active { set; get; } = true;
+        public string Value { get; set; }
         public Field Field { set; get; }
         public Validations Validations { set; get; }
 

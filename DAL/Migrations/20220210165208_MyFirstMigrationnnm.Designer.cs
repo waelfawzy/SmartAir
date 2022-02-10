@@ -4,6 +4,7 @@ using DAL.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,10 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DAL.Migrations
 {
     [DbContext(typeof(SmartContext))]
-    partial class SmartContextModelSnapshot : ModelSnapshot
+    [Migration("20220210165208_MyFirstMigrationnnm")]
+    partial class MyFirstMigrationnnm
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -110,27 +112,6 @@ namespace DAL.Migrations
                     b.HasIndex("UserId");
 
                     b.ToTable("BusinessOffers");
-                });
-
-            modelBuilder.Entity("DAL.Models.Controle", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
-
-                    b.Property<string>("Description")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Controle");
                 });
 
             modelBuilder.Entity("DAL.Models.Country", b =>
@@ -235,21 +216,11 @@ namespace DAL.Migrations
                     b.Property<bool>("Active")
                         .HasColumnType("bit");
 
-                    b.Property<string>("Caption")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("ControleId")
-                        .HasColumnType("int");
-
                     b.Property<string>("Description")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("Draw")
-                        .HasColumnType("bit");
-
-                    b.Property<bool?>("HasValidation")
                         .HasColumnType("bit");
 
                     b.Property<DateTime>("InsertionDate")
@@ -264,8 +235,6 @@ namespace DAL.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("ControleId");
 
                     b.ToTable("Fields");
                 });
@@ -312,10 +281,6 @@ namespace DAL.Migrations
 
                     b.Property<int>("ValidationId")
                         .HasColumnType("int");
-
-                    b.Property<string>("Value")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
@@ -1441,16 +1406,9 @@ namespace DAL.Migrations
                     b.Property<bool>("Active")
                         .HasColumnType("bit");
 
-                    b.Property<string>("ControllerNames")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("Description")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
-
-                    b.Property<bool?>("HasValue")
-                        .HasColumnType("bit");
 
                     b.Property<DateTime>("InsertionDate")
                         .HasColumnType("datetime2");
@@ -1459,35 +1417,9 @@ namespace DAL.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("ValidationTypeId")
-                        .HasColumnType("int");
-
                     b.HasKey("Id");
-
-                    b.HasIndex("ValidationTypeId");
 
                     b.ToTable("Validations");
-                });
-
-            modelBuilder.Entity("DAL.Models.ValidationTypes", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
-
-                    b.Property<string>("Description")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("ValidationTypes");
                 });
 
             modelBuilder.Entity("DAL.Models.AirPort", b =>
@@ -1517,17 +1449,6 @@ namespace DAL.Migrations
                     b.HasOne("DAL.Models.User", null)
                         .WithMany("businessOffers")
                         .HasForeignKey("UserId");
-                });
-
-            modelBuilder.Entity("DAL.Models.Field", b =>
-                {
-                    b.HasOne("DAL.Models.Controle", "Controle")
-                        .WithMany("Fields")
-                        .HasForeignKey("ControleId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Controle");
                 });
 
             modelBuilder.Entity("DAL.Models.FieldEvents", b =>
@@ -1907,17 +1828,6 @@ namespace DAL.Migrations
                     b.Navigation("User");
                 });
 
-            modelBuilder.Entity("DAL.Models.Validations", b =>
-                {
-                    b.HasOne("DAL.Models.ValidationTypes", "ValidationType")
-                        .WithMany("Validations")
-                        .HasForeignKey("ValidationTypeId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("ValidationType");
-                });
-
             modelBuilder.Entity("DAL.Models.AirPort", b =>
                 {
                     b.Navigation("airportActivities");
@@ -1928,11 +1838,6 @@ namespace DAL.Migrations
             modelBuilder.Entity("DAL.Models.BusinessOffer", b =>
                 {
                     b.Navigation("UserBusnessOffers");
-                });
-
-            modelBuilder.Entity("DAL.Models.Controle", b =>
-                {
-                    b.Navigation("Fields");
                 });
 
             modelBuilder.Entity("DAL.Models.Country", b =>
@@ -2080,11 +1985,6 @@ namespace DAL.Migrations
             modelBuilder.Entity("DAL.Models.Validations", b =>
                 {
                     b.Navigation("validations");
-                });
-
-            modelBuilder.Entity("DAL.Models.ValidationTypes", b =>
-                {
-                    b.Navigation("Validations");
                 });
 #pragma warning restore 612, 618
         }
