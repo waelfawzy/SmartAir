@@ -1,56 +1,11 @@
 {
   "Version": 1,
   "ProjectMap": {
-    "d5566261-2912-4056-9786-26422eaf2bdb": {
-      "ProjectGuid": "d5566261-2912-4056-9786-26422eaf2bdb",
-      "DisplayName": "SmartAir_Api",
-      "ColorIndex": 0
-    },
-    "1c55cf40-3f51-4099-a8c1-89844468914c": {
-      "ProjectGuid": "1c55cf40-3f51-4099-a8c1-89844468914c",
-      "DisplayName": "DAL",
-      "ColorIndex": 1
-    },
-    "f89a78b6-50ec-44f2-ad6b-e7d9ab537cd8": {
-      "ProjectGuid": "f89a78b6-50ec-44f2-ad6b-e7d9ab537cd8",
-      "DisplayName": "BLL",
-      "ColorIndex": 2
-    },
-    "d87e9703-5d7c-4dd3-a524-5dec3b4dfd1f": {
-      "ProjectGuid": "d87e9703-5d7c-4dd3-a524-5dec3b4dfd1f",
-      "DisplayName": "Phone_Api",
-      "ColorIndex": 3
-    },
-    "4d88c524-eb3d-4148-accc-c945f8faed03": {
-      "ProjectGuid": "4d88c524-eb3d-4148-accc-c945f8faed03",
-      "DisplayName": "Angular_SmarAir",
-      "ColorIndex": 4
-    },
-    "ff29de6c-1f73-489d-bcd6-2ace4f8a21b8": {
-      "ProjectGuid": "ff29de6c-1f73-489d-bcd6-2ace4f8a21b8",
-      "DisplayName": "WebApplication1",
-      "ColorIndex": 5
-    },
-    "b812564a-7a6f-420e-b1d3-10c7bf34957c": {
-      "ProjectGuid": "b812564a-7a6f-420e-b1d3-10c7bf34957c",
-      "DisplayName": "SmartAir_Api",
-      "ColorIndex": 6
-    },
-    "56d637c8-5195-47b5-a269-5f9d71048a56": {
-      "ProjectGuid": "56d637c8-5195-47b5-a269-5f9d71048a56",
-      "DisplayName": "Mobile_Api",
-      "ColorIndex": 7
-    },
     "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
       "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
       "DisplayName": "Miscellaneous Files",
       "ColorIndex": -1
-    },
-    "7ad02a9a-6614-4c06-93be-914a7d653a51": {
-      "ProjectGuid": "7ad02a9a-6614-4c06-93be-914a7d653a51",
-      "DisplayName": "SL",
-      "ColorIndex": 8
     }
   },
-  "NextColorIndex": 9
+  "NextColorIndex": 0
 }

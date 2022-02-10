@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "Df77tMsJPvFNE5uCSX3aNDgoUasRO+qE56Oc3tmgDJWjO8ShyUTEM+QED9y5lxGU+bQun8qA2/yIGtEUbava1Q==",
+  "dgSpecHash": "l+icFjR9nTBWtYc3vz6sK2n3uXbZ16heCZyXwmrf5wAE6ZJLevwDoz2anlWh+BkRvaMgAn/j39/LkWKXSIfksg==",
   "success": true,
-  "projectFilePath": "D:\\4S_Study\\SmartAir\\SL\\SL.csproj",
+  "projectFilePath": "E:\\SmartAir\\SL\\SL.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Zahraa\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
-    "C:\\Users\\Zahraa\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.15.1\\microsoft.identitymodel.jsonwebtokens.6.15.1.nupkg.sha512",
-    "C:\\Users\\Zahraa\\.nuget\\packages\\microsoft.identitymodel.logging\\6.15.1\\microsoft.identitymodel.logging.6.15.1.nupkg.sha512",
-    "C:\\Users\\Zahraa\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.15.1\\microsoft.identitymodel.tokens.6.15.1.nupkg.sha512",
-    "C:\\Users\\Zahraa\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.15.1\\system.identitymodel.tokens.jwt.6.15.1.nupkg.sha512",
-    "C:\\Users\\Zahraa\\.nuget\\packages\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512"
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\5\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.15.1\\microsoft.identitymodel.jsonwebtokens.6.15.1.nupkg.sha512",
+    "C:\\Users\\5\\.nuget\\packages\\microsoft.identitymodel.logging\\6.15.1\\microsoft.identitymodel.logging.6.15.1.nupkg.sha512",
+    "C:\\Users\\5\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.15.1\\microsoft.identitymodel.tokens.6.15.1.nupkg.sha512",
+    "C:\\Users\\5\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.15.1\\system.identitymodel.tokens.jwt.6.15.1.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512"
   ],
   "logs": []
 }
