@@ -10,3 +10,15 @@ D:\Ayman\SmartAir\SmartAir\SL\obj\Debug\net6.0\SL.dll
 D:\Ayman\SmartAir\SmartAir\SL\obj\Debug\net6.0\ref\SL.dll
 D:\Ayman\SmartAir\SmartAir\SL\obj\Debug\net6.0\SL.pdb
 D:\Ayman\SmartAir\SmartAir\SL\obj\Debug\net6.0\SL.csproj.AssemblyReference.cache
+D:\4S_Study\SmartAir\SL\bin\Debug\net6.0\SL.deps.json
+D:\4S_Study\SmartAir\SL\bin\Debug\net6.0\SL.dll
+D:\4S_Study\SmartAir\SL\bin\Debug\net6.0\ref\SL.dll
+D:\4S_Study\SmartAir\SL\bin\Debug\net6.0\SL.pdb
+D:\4S_Study\SmartAir\SL\obj\Debug\net6.0\SL.csproj.AssemblyReference.cache
+D:\4S_Study\SmartAir\SL\obj\Debug\net6.0\SL.GeneratedMSBuildEditorConfig.editorconfig
+D:\4S_Study\SmartAir\SL\obj\Debug\net6.0\SL.AssemblyInfoInputs.cache
+D:\4S_Study\SmartAir\SL\obj\Debug\net6.0\SL.AssemblyInfo.cs
+D:\4S_Study\SmartAir\SL\obj\Debug\net6.0\SL.csproj.CoreCompileInputs.cache
+D:\4S_Study\SmartAir\SL\obj\Debug\net6.0\SL.dll
+D:\4S_Study\SmartAir\SL\obj\Debug\net6.0\ref\SL.dll
+D:\4S_Study\SmartAir\SL\obj\Debug\net6.0\SL.pdb
