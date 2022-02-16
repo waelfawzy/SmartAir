@@ -21,3 +21,4 @@ D:\4S_Study\SmartAir\SL\obj\Debug\net6.0\SL.csproj.CoreCompileInputs.cache
 D:\4S_Study\SmartAir\SL\obj\Debug\net6.0\SL.dll
 D:\4S_Study\SmartAir\SL\obj\Debug\net6.0\ref\SL.dll
 D:\4S_Study\SmartAir\SL\obj\Debug\net6.0\SL.pdb
+D:\4S_Study\SmartAir\SL\obj\Debug\net6.0\SL.csproj.AssemblyReference.cache

@@ -2318,41 +2318,43 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\csharp\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Zahraa\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\csharp\\Source\\Repos\\SmartAir\\BLL\\BLL.csproj",
+      "projectUniqueName": "D:\\4S_Study\\SmartAir\\BLL\\BLL.csproj",
       "projectName": "BLL",
-      "projectPath": "C:\\Users\\csharp\\Source\\Repos\\SmartAir\\BLL\\BLL.csproj",
-      "packagesPath": "C:\\Users\\csharp\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\csharp\\Source\\Repos\\SmartAir\\BLL\\obj\\",
+      "projectPath": "D:\\4S_Study\\SmartAir\\BLL\\BLL.csproj",
+      "packagesPath": "C:\\Users\\Zahraa\\.nuget\\packages\\",
+      "outputPath": "D:\\4S_Study\\SmartAir\\BLL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\csharp\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Zahraa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nuget.telerik.com/nuget": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\csharp\\Source\\Repos\\SmartAir\\DAL\\DAL.csproj": {
-              "projectPath": "C:\\Users\\csharp\\Source\\Repos\\SmartAir\\DAL\\DAL.csproj"
+            "D:\\4S_Study\\SmartAir\\DAL\\DAL.csproj": {
+              "projectPath": "D:\\4S_Study\\SmartAir\\DAL\\DAL.csproj"
             },
-            "C:\\Users\\csharp\\Source\\Repos\\SmartAir\\SL\\SL.csproj": {
-              "projectPath": "C:\\Users\\csharp\\Source\\Repos\\SmartAir\\SL\\SL.csproj"
+            "D:\\4S_Study\\SmartAir\\SL\\SL.csproj": {
+              "projectPath": "D:\\4S_Study\\SmartAir\\SL\\SL.csproj"
             }
           }
         }
@@ -2391,7 +2393,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   },
