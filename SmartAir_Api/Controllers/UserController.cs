@@ -6,9 +6,10 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace SmartAir_Api.Controllers
 {
-    [ApiController]
     [Route("api/[controller]")]
-    public class UserController : Controller
+    [ApiController]
+    
+    public class UserController : ControllerBase
     {
         private readonly IRepoWrapper repository;
         private readonly IConfiguration _config;
@@ -19,7 +20,7 @@ namespace SmartAir_Api.Controllers
             this.repository = repository;
             _config = config;
         }
-        [HttpPost("{action}")]
+        [HttpPost("Login")]
         public async Task<ActionResult<IEnumerable<AuthenticateResponse>>> Login(AuthenticateRequest request)
         {
             if (request == null)
@@ -33,14 +34,14 @@ namespace SmartAir_Api.Controllers
             return Ok(user);
         }
 
-        [Authorize]
-        [HttpGet("{action}")]
+        
+        [HttpGet("[action]")]
         public string Test()
         {
             return "Authorization Work fine";
         }
-        [HttpGet("{action}")]
 
+        [HttpPost("RefreshToken")]
         public async Task<ActionResult<IEnumerable<TokenVM>>> RefreshToken(TokenVM request)
         {
             if (request == null)

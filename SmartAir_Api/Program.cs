@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Server.IISIntegration;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
+using Microsoft.OpenApi.Models;
 using SL.TokenManger;
 using System.Text;
 
@@ -32,7 +33,7 @@ var SecretKey = builder.Configuration["AppSettings:SecretKey"];
     });
     services.AddSwaggerGen(c =>
     {
-        c.SwaggerDoc("Smart Api V1", new Microsoft.OpenApi.Models.OpenApiInfo{ Title = "Smart Air Services", Version = "Version 1" });
+        c.SwaggerDoc("v1",new OpenApiInfo{ Title = "Smart Air Services", Version = "v1" });
     });
 
 

@@ -22,3 +22,15 @@ D:\4S_Study\SmartAir\SL\obj\Debug\net6.0\SL.dll
 D:\4S_Study\SmartAir\SL\obj\Debug\net6.0\ref\SL.dll
 D:\4S_Study\SmartAir\SL\obj\Debug\net6.0\SL.pdb
 D:\4S_Study\SmartAir\SL\obj\Debug\net6.0\SL.csproj.AssemblyReference.cache
+C:\Users\DELL\source\repos\SmartAir\SL\bin\Debug\net6.0\SL.deps.json
+C:\Users\DELL\source\repos\SmartAir\SL\bin\Debug\net6.0\SL.dll
+C:\Users\DELL\source\repos\SmartAir\SL\bin\Debug\net6.0\SL.pdb
+C:\Users\DELL\source\repos\SmartAir\SL\obj\Debug\net6.0\SL.csproj.AssemblyReference.cache
+C:\Users\DELL\source\repos\SmartAir\SL\obj\Debug\net6.0\SL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\source\repos\SmartAir\SL\obj\Debug\net6.0\SL.AssemblyInfoInputs.cache
+C:\Users\DELL\source\repos\SmartAir\SL\obj\Debug\net6.0\SL.AssemblyInfo.cs
+C:\Users\DELL\source\repos\SmartAir\SL\obj\Debug\net6.0\SL.csproj.CoreCompileInputs.cache
+C:\Users\DELL\source\repos\SmartAir\SL\obj\Debug\net6.0\SL.dll
+C:\Users\DELL\source\repos\SmartAir\SL\obj\Debug\net6.0\refint\SL.dll
+C:\Users\DELL\source\repos\SmartAir\SL\obj\Debug\net6.0\SL.pdb
+C:\Users\DELL\source\repos\SmartAir\SL\obj\Debug\net6.0\ref\SL.dll
